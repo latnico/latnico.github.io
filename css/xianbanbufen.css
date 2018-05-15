@@ -1,0 +1,43 @@
+#tupian {
+		margin: 0 auto;
+		position: relative;	
+		width:1154px ;
+		height: 300px;
+		top: 150px;
+	}
+	
+#beijin {
+		width: 100%;
+		height: 100%;
+		max-width: 100%;
+		max-height: 100%;
+		box-sizing: border-box;
+		position: absolute;
+		background: url(../img/6.jpg);
+		background-position: center;
+	}
+	
+#tupian img {
+		display: block;
+		max-height: 300px;
+		float: right;
+		margin-right: 30px;
+	}
+		
+label:first-child {
+		display: block;
+		position: absolute;
+		box-sizing: border-box;
+		width: 11rem;
+		height: 4rem;
+		line-height: 4rem;
+		left: 40%;
+		bottom: 0;
+		z-index: 3;
+		text-align: center;
+		font-size: 24px;
+		font-weight: bold;
+		color: #FFFFFF;
+		border: 3px solid #FFFFFF;
+		cursor: pointer;
+	}
