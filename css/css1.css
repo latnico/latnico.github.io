@@ -12,7 +12,7 @@ body{
 		z-index: 1;
 	}
 
-#intro{
+#intro {
 		padding: 8rem 4rem 6rem 4rem;
 		color: #FFFFFF;
 	}
@@ -31,14 +31,14 @@ body{
 		font: inherit;
 	}
 
-nav {
+section {
 		width: 1154px;
 		height: 64px;
 		margin: 0 auto;
 		background-color: #5f5a5a;
 }
 
-nav li {
+section li {
 		list-style: none;
 		float: left;
 		width: 192px;
@@ -223,11 +223,11 @@ a {
 		z-index: 2;
 	}
 	
-	#active3 {
+#active3 {
 		position: relative;
 	}
 	
-	#ul-hidden {
+#ul-hidden {
 		width: 100%px;
 		height: 100px;
 		display: none;

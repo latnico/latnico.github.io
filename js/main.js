@@ -1,18 +1,19 @@
-	window.onload = function(){
-		
-		var li = document.getElementById('active3');
-		var ul = document.getElementById('ul-hidden');
-		var a  = document.getElementById("a1");
-		li.onmouseover = show;
-		li.onmouseout = out;
-		
-		function show(){
-			ul.style.display = "block";	
-			a.style.backgroundColor = "#000000";
-		}
-		
-		function out(){
-			ul.style.display = "none";	
-			a.style.backgroundColor = "#5F5A5A";
-		}
+$(function(){
+	
+	let i=0;
+	let oBtn = $(".button").find("label");
+	let timer = null;
+	let Iheight =0;
+	move();
+	timer =setInterval(move,2000);
+	function move(){
+			if(i===4){
+	            i=0;
+           	}
+			Iheight = -40*i;	
+			$("#banner_1").animate({top:Iheight+"rem"},"slow");	
+			oBtn.eq(i).addClass("yellow");
+			oBtn.eq(i-1).removeClass("yellow");
+			i++;
 	}
+})
