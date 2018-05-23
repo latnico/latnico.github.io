@@ -95,6 +95,7 @@ footer {
 	
 footer img {
 	display: block;
+	width:100%;
 	max-width: 100%;
 	max-height: 300px;
 }
