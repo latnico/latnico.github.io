@@ -91,6 +91,7 @@ footer {
 		height: 100px;
 		display: flex;
 		background: url(../img/6.jpg);
+		background-size:cover;
 }
 	
 footer img {
@@ -101,7 +102,6 @@ footer img {
 .button {
 	position: absolute;
 	z-index: 3;
-	display: flex;
 	bottom: 0;
 }
 
