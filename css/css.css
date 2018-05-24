@@ -89,16 +89,9 @@ a {
 footer {
 		width: 100vw;
 		height: 100px;
-		display: flex;
-		background: url(../img/6.jpg);
-		position: absolute;
-		z-index:2;
+		background:#000;
 }
-	
-footer img {
-	display: block;
-	max-width: 100%;
-}
+
 .button {
 	position: absolute;
 	z-index: 3;
